@@ -3,12 +3,32 @@
     font-weight: 900;
     font-style: normal;
 }*/
+:root{
+    --elsie{
+        font-family: "Elsie", serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+}
+
+
+
 
 .page-head{
     width: 600%;
     height: 250px;
     border: 4px solid #ffffff;
     background-image: url("https://carolinehagan.co.uk/wp-content/uploads/2023/03/why-are-women-in-tech-so-important.webp");
-
+    object-fit: contain;
 }
 
+.page-main{
+    dispay:flex;
+    background-color:  #d648d7;
+    color: #ffffff;
+    font: var(--elsie);
+    
+    
+}
+
+/* @media all and (max-width:600px){}*/

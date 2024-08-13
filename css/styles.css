@@ -12,18 +12,22 @@
 }
 
 #head{
-  height:500px;
+  height: 650px;
   width: 100%;
-  border: 4px solid #ffffff;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 
 .head-img{
-  height: 100%;
+  padding: 0;
+  height: 75%;
   width: 100%;
-    background-image: url("https://www-file.huawei.com/-/media/corp2020/sustainability/women-in-tech-roadshow/banner-pc2.jpg");
-    object-fit: scale-down;
-  
+  margin-bottom: 15px;
+  background-image: url("https://www-file.huawei.com/-/media/corp2020/sustainability/women-in-tech-roadshow/banner-pc2.jpg");
+  object-fit: scale-down;
+  border-bottom: 4px solid #ffffff;
 }
 
 /*@media all and (max-width:600px){

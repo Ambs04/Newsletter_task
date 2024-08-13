@@ -3,17 +3,22 @@
     font-weight: 900;
     font-style: normal;
 }*/
-:root{
-    --elsie{
+/*:root{
+    --elsie-heading{
         font-family: "Elsie", serif;
         font-weight: 900;
         font-style: normal;
         color: #ffffff;
             }
-}
+    --elsie-normal{
+        font-family: "Elsie", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #ffffff;
+            }
+}*/
 
 #head{
-  display: block;
   height: 650px;
   width: 100%;
   margin: 0px 6px 0px 0px;
@@ -33,7 +38,6 @@
 }
 
 #main{
-    display: block;
     padding: 0px;
     margin: 0px 2px 0px 0px;
 }
@@ -47,7 +51,22 @@
     filter: brightness(70%);
 }
 
+table{
+    width: 100%;
+    height: 150px;
+    margin:0px 6px 0px 0px;
+    padding: 1px 2px 1px 1px;
+    text-align: left;
+    border: 
+}
 
+
+
+.text{
+    font-family: "Elsie", serif;
+    font-weight: 900;
+    color: #ffffff;
+}
 
 
 

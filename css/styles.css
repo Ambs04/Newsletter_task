@@ -112,6 +112,8 @@ ul > li {
 
 @media all and (max-width:600px){
         image-resolution: 300ppi;
-        
+        .page-body{
+            width: 600px;
+        }
 
           }
